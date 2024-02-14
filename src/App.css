@@ -1,0 +1,108 @@
+.new-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.new-list2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-list h2{
+  text-align: center;
+}
+
+.new-list button{
+  width: 12rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #3B71CA;
+  color: #fff;
+}
+
+.new-list p{
+  color: red;
+}
+
+.list-container{
+  display: flex;
+  margin: 3rem 2.5rem;
+}
+
+.list-header{
+  display: flex;
+}
+
+.list-header input{
+  width: .9rem;
+  margin-top: .3rem;
+  margin-left: .5rem;
+}
+
+.list-box{
+  border: 1px solid black;
+  margin: 1rem 0;
+  border-radius:5px;
+  background: #fff;
+  padding: 2rem 1rem;
+}
+
+.list-name{
+  font-weight: 800;
+}
+
+.list-column{
+    max-height: 30rem; 
+    overflow-y: auto;
+    background-color: #9dc1fa; 
+    padding: 10px;
+}
+
+.error-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.error-page img{
+  width: 36rem;
+  height: 29rem;
+}
+
+.error-page button{
+  width: 12rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #3B71CA;
+  color: #fff;
+}
+
+.error-page button:hover{
+  cursor: pointer;
+}
+
+.error-page p{
+  color: red;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+@media (max-width:992px){
+  html{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:778px){
+  html{
+    font-size: 12px;
+  }
+}
